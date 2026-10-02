@@ -1,7 +1,15 @@
 # CSCI 4830 — T2 Hello World
 
 A fresh Django app for the Tech Exercise setup checkpoint. The `/` route displays
-**Hello, world!**. The EC2 website URL will be added after deployment is verified.
+**Hello, world!**.
+
+**Live website:** http://18.117.233.67/
+
+**Repository:** https://github.com/premiumstoic/csci4830-t2-hello-world
+
+Verified on October 1, 2026: the public website returns HTTP 200 and displays
+Hello, world! from Django. Both Nginx and the Gunicorn systemd service are active.
+The app was deployed from commit `fe1d7b5e25ffc8babb480ad65ed735a319365e82`.
 
 ## Run locally
 
